@@ -1,8 +1,19 @@
+.container1 {
+
+}
 .cellulare {
     width: 300px;
     height: 330px;
     background-image: url(http://images2.corriereobjects.it/Primo_Piano/Tecnologia/gallery/2013/04/cellulari/storia/img_storia/14_Nokia_N95_941-705_resize.jpg?v=20130403122804);
     background-size: cover;
+    position: relative;
+}
+.sconto {
+    width: 60px;
+    background-color: red;
+    text-align: center;
+    padding: 7px 0;
+    position: absolute; right: 0;
 }
 .gin {
     width: 300px;
@@ -16,5 +27,5 @@
     height: 330px;
     background-image: url(https://i.dailymail.co.uk/i/pix/2015/10/12/22/2D320A0700000578-3270023-image-a-4_1444686677072.jpg);
     background-size: cover;
-    position: relative; left: 600px; top: 0px;
+    position: absolute; left: 600px; top: 0px;
 }
