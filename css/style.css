@@ -1,11 +1,9 @@
-.container1 {
-
-}
 .cellulare {
-    width: 300px;
+    width: 33%;
     height: 330px;
     background-image: url(http://images2.corriereobjects.it/Primo_Piano/Tecnologia/gallery/2013/04/cellulari/storia/img_storia/14_Nokia_N95_941-705_resize.jpg?v=20130403122804);
     background-size: cover;
+    display: inline-block;
     position: relative;
 }
 .sconto {
@@ -16,16 +14,21 @@
     position: absolute; right: 0;
 }
 .gin {
-    width: 300px;
+    width: 33%;
     height: 330px;
     background-image: url(http://cdn.images.express.co.uk/img/dynamic/14/590x/gin-Christmas-festive-holiday-cocktail-Jamie-Goode-621959.jpg);
     background-size: cover;
-    position: absolute; left: 300px; top: 0px;
+    display: inline-block;
+    position: relative;
 }
 .tonic-water {
-    width: 300px;
+    width: 33%;
     height: 330px;
     background-image: url(https://i.dailymail.co.uk/i/pix/2015/10/12/22/2D320A0700000578-3270023-image-a-4_1444686677072.jpg);
     background-size: cover;
-    position: absolute; left: 600px; top: 0px;
+    display: inline-block;
+    position: relative;
+}
+.cellulare .gin .tonic-water:hover {
+    &hearts; 
 }
