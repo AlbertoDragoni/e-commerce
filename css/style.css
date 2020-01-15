@@ -29,6 +29,10 @@
     display: inline-block;
     position: relative;
 }
-.cellulare .gin .tonic-water:hover {
-    &hearts; 
+.cuore {
+    display: none;
+    position: absolute; top: 0;
+}
+.cellulare:hover .cuore {
+    display: block;
 }
