@@ -31,8 +31,14 @@
 }
 .cuore {
     display: none;
-    position: absolute; top: 0;
+    position: absolute; left: 50%; bottom: 0;
 }
 .cellulare:hover .cuore {
+    display: block;
+}
+.gin:hover .cuore {
+    display: block;
+}
+.tonic-water:hover .cuore {
     display: block;
 }
